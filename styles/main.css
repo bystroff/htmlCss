@@ -1,9 +1,12 @@
+body {
+max-width: 1200px;
+}
 ul.line {
-    margin: 0;
-    padding: 4px;
-   }
+  margin: 0;
+  padding: 4px;
+}
 ul.line li {
-    display: inline;
-    margin-right: 5px;
-    padding: 3px;
-   }
+  display: inline;
+  margin-right: 5px;
+  padding: 3px;
+}
