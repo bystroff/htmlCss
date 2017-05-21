@@ -1,5 +1,19 @@
-body {
-max-width: 1200px;
+body, html {
+  max-width: 1200px;
+  height: 100%;
+}
+.header {
+	height: 89px;
+	overflow: hidden;
+}
+.header .logo {
+	text-indent: -9999px;
+	display: block;
+	float: left;
+	height: 89px;
+	margin-right: 36px;
+	width: 206px;
+	background: url(../images/site/logo.png) no-repeat left center;
 }
 ul.line {
   margin: 0;
