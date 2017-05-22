@@ -46,20 +46,21 @@
     </ul>
   </div>
 	<!-- content -->
-	<h1>Контакты нашего интернет магазина</h1>
-	<h2>&laquo;Напишите нам&raquo;</h2>
-	<form>
+	<h2 class="pageHeader">
+    <span>Напишите нам</span>
+  </h2>
+	<form action="feedback" method="post">
     <div>
-      <label for="name">Введите ваше имя</label>
-      <input type="text" id="name" placeholder="Введите ваше имя">
+      <label class="nameRowsForm" for="name">Введите ваше имя</label>
+      <input type="text" id="name" placeholder="Введите ваше имя" class="input__rows">
     </div>
     <div>
-      <label for="email">Введите ваш E-mail</label>
-      <input type="text" id="email" placeholder="Введите ваш E-mail">
+      <label class="nameRowsForm" for="email">Введите ваш E-mail</label>
+      <input type="text" id="email" placeholder="Введите ваш E-mail" class="input__rows">
     </div>
     <div>
-      <label for="workPlace">С каким службой желаете связаться?</label>
-      <select id="workPlace">
+      <label class="nameRowsForm" for="workPlace">С какой службой желаете связаться?</label>
+      <select id="workPlace" class="input__rows">
         <option value="1">По общим вопросам</option>
         <option value="2">Отдел рекламаций</option>
         <option value="3">Отдел маркетинга</option>
@@ -67,18 +68,21 @@
       </select>
     </div>
     <div>
-      <label for="subject">Введите тему сообщения</label>
-      <input type="subject" id="" placeholder="Введите тему сообщения">
+      <label class="nameRowsForm" for="subject">Введите тему сообщения</label>
+      <input type="subject" id="" placeholder="Введите тему сообщения" class="input__rows">
     </div>
     <div>
-      <label for="comment">Сообщение</label>
-      <textarea id="comment" placeholder="Введите ваше сообщение" cols="50"></textarea>
+      <label class="nameRowsForm" for="comment">Сообщение</label>
+      <textarea id="comment" placeholder="Введите ваше сообщение" rows="10" cols="50" class="input__rows"></textarea>
     </div>
     <div>
+      <label class="nameRowsForm">&nbsp;</label>
       <input type="submit" value="Отправить">
     </div>
   </form>
-  <h2>&laquo;Наш адрес&raquo;</h2>
+  <h2 class="pageHeader">
+    <span>Наш адрес</span>
+  </h2>
   <p>Наш телефон - 8 (800) 123-45-67</p>
   <p>Наш E-mail - support@seniorgadget.ru</p>
   <p>Наш адрес - 125009, г. Москва, ул. Петровка, д. 2</p>
