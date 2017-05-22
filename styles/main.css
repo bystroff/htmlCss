@@ -98,12 +98,24 @@ input[type="text"] {
   background: url(../images/site/search.png) no-repeat 0px -2px;
   cursor: pointer;
 }
-ul.topMenu {
-  margin: 0;
-  padding: 4px;
+.topMenu {
+  width: 100%;
+  height: 40px;
+  background: url(../images/site/bgMenuLine.png) repeat left top;
+  border-left: 2px solid #0168b6;
+  border-right: 2px solid #0168b6;
 }
-ul.topMenu li {
-  display: inline;
-  margin-right: 5px;
-  padding: 3px;
+.topMenu ul {
+  overflow: hidden;
+}
+.topMenu li {
+	float: left;
+	background: url(../images/site/topMenuPX.png) no-repeat right top;
+}
+.topMenu li a {
+  height: 40px;
+  line-height: 36px;
+  color: #fff;
+  font: normal 18px/40px 'OpenSansSemibold', Arial, sans-serif;
+  padding: 0 17px 0 16px;
 }
