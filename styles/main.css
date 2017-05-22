@@ -1,5 +1,5 @@
 body, html {
-  height: 100%;
+  min-height: 100%;
 }
 .globalwrap {
   max-width: 1200px;
@@ -15,6 +15,14 @@ body, html {
   height: 47px;
   background: #2e3135;
   color: #f0f0f0;
+}
+.footer {
+  width: 100%;
+  height: 57px;
+  background: #2e3135;
+  color: #f0f0f0;
+  text-align: center;
+  padding-top: 20px;
 }
 .topLineDiscount {
   color: #009aff;
