@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+  <head>
+  	<meta charset="utf-8">
+  	<title>Страница контактов интернет магазина</title>
+    <link rel="stylesheet" type="text/css" href="styles/reset.css">
+    <link rel="stylesheet" type="text/css" href="styles/main.css">
+  </head>
+<body>
+	<!-- header -->
+  <div class="wrapper">
+    <div class="header">
+      <div class="header__topline">
+        <a href="#" class="topline__popup"><span>
+        ПРИ ПОДПИСКЕ НА РАССЫЛКУ <span class="topline__popup_color">400 РУБЛЕЙ В
+        ПОДАРОК!</span>
+        </span>
+        </a>
+        <span class="topline__reg"><a href="#" class="topline__menu">Вход</a>
+          <a href="#" class="topline__menu">Регистрация</a></span>
+        <span><a href="#" class="topLine__cart">&nbsp;0 РУБ - 0 товаров</a></span>
+      </div>
+      <a href="#" class="header__logo">Сеньор Гаджет"</a>
+      <div class="header__tel">
+        <span>Звоните ежедневно с 10:00 до 22:00 (МСК)<br>
+          8 (800) 123-4567 или
+          <a href="#" class="tel__callback">обратный звонок</a></span>
+      </div>
+      <div class="header__search">
+        <form action="search" method="get">
+          <input class="header__input" type="text" autocomplete="on" placeholder="Поиск товара">
+          <input class="header__input_button" type="submit" value="search">
+        </form>
+      </div>
+    </div>
+	<!-- menu -->
+    <div class="topMenu">
+      <ul>
+        <li class="topMenu__item"><a href="index.html" class="item__link">Главная</a></li>
+        <li class="topMenu__item"><a href="catalog.html" class="item__link">Каталог</a></li>
+        <li class="topMenu__item"><a href="feedback.html" class="item__link">Контакты</a></li>
+        <li class="topMenu__item"><a href="systematic.html" class="item__link">Дополнительная Домашка</a></li>
+      </ul>
+    </div>
+	<!-- content -->
+    <div class="content">
+      <h2 class="content__topic">
+      <span class="topic__header">Напишите нам</span>
+      </h2>
+	    <form action="feedback" method="post">
+        <div>
+          <label class="content__namerows" for="name">Введите ваше имя</label>
+          <input type="text" id="name" placeholder="Введите ваше имя" class="content__input">
+        </div>
+        <div>
+          <label class="content__namerows" for="email">Введите ваш E-mail</label>
+          <input type="text" id="email" placeholder="Введите ваш E-mail" class="content__input">
+        </div>
+        <div>
+          <label class="content__namerows" for="workPlace">С какой службой желаете связаться?</label>
+          <select id="workPlace" class="content__input">
+            <option value="1">По общим вопросам</option>
+            <option value="2">Отдел рекламаций</option>
+            <option value="3">Отдел маркетинга</option>
+            <option value="4">Сервисный центр</option>
+          </select>
+        </div>
+        <div>
+          <label class="content__namerows" for="subject">Введите тему сообщения</label>
+          <input type="subject" id="" placeholder="Введите тему сообщения" class="content__input">
+        </div>
+        <div>
+          <label class="content__namerows" for="comment">Сообщение</label>
+          <textarea id="comment" placeholder="Введите ваше сообщение" rows="10" cols="50" class="content__input"></textarea>
+        </div>
+        <div>
+          <label class="content__namerows">&nbsp;</label>
+          <input type="submit" value="Отправить" class="content__input_button">
+        </div>
+      </form>
+      <h2 class="content__topic">
+        <span class="topic__header">Наш адрес</span>
+      </h2>
+      <p>Наш телефон - 8 (800) 123-45-67</p>
+      <p>Наш E-mail - support@seniorgadget.ru</p>
+      <p>Наш адрес - 125009, г. Москва, ул. Петровка, д. 2</p>
+      <p>Время работы - Пн-Сб: с 10:00 до 22:00<br>
+      Вс: с 11:00 до 22:00</p>
+      <div>
+        <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A062b275c3b8d8c47023c234df8798da1aa536f30bd1de777a0cbec0b3f8eadf7&amp;width=500&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
+      </div>
+    </div>
+	<!-- footer -->
+    <div class="footer">
+      &copy; "Все права защищены"
+    </div>
+  </div>
+</body>
+</html>
